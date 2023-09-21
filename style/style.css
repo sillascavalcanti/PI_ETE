@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+:root {
+    --background-color: #fff;
+    --boton-color: #9C5DC2;
+    --boton-hover-color:#7024a0;
+    --nav-color: #885DD9;
+    --text-color: #000;
+}
+body{
+    background-color: var(--background-color2);
+}
+body, h1, h2, p {
+    color: var(--text-color);
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Style Nav inicio ------------------------------------------------------------------------------- */
+.nav {
+    background-color: var(--nav-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.area_menu{
+    padding-top: 25px;
+}
+.menu_nav{
+    color: #fff;
+    font-size: larger;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu_nav:hover{
+    background: #fff;
+    border-radius: 10px;
+    color: var(--nav-color);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+
+
+/* Style Nav fim ------------------------------------------------------------------------------- */
+
+
+
+/* Style Content inicio ------------------------------------------------------------------------ */
+    /* Style content index inicio -------------------------------------- */
+    .left_content{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 496px;
+        justify-content: center;
+        width: 35%;
+    }
+
+    .left_content h1{
+        margin-bottom: 10px;
+    }
+
+    .left_content p{
+        text-align: justify;
+        width: 380px;
+    }
+
+
+        /* Style Formulario index inicio ------------*/
+
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+        }
+
+
+
+        .componente_formulario{
+            border-radius: 5px;
+            border: #6159CF 1px solid;
+            margin: 5px;
+            padding: 10px;
+            width: 300px;
+        }
+
+        /* .componente_formulario:hover{
+            border: #6159CF 2px solid;
+            transition: 0.2s;
+        } */
+
+        .botao_formulario{
+            background-color: var(--boton-color);
+            border: 1px;
+            border-radius: 5px;
+            font-size: large;
+            margin: auto;
+            padding: 10px;
+            width: 320px;
+            margin-top: 10px;
+        }
+
+        .botao_formulario:hover{
+            background-color: var(--boton-hover-color);
+            color: #fff;
+            font-weight: bold;
+            transition: 0.5s;
+        }
+
+        .texto_formulario{
+            border-radius: 5px;
+            border: #6159CF 1px solid;
+            margin: 5px;
+            padding: 10px;
+            width: 300px;
+            height: 100px;
+        }
+
+        .sugestao_titulo{
+            margin-bottom: -20px;
+        }
+        /* Style Formulario index fim ------------*/
+    /* Style content index fim -----------------------------------------*/
+
+
+    /* Sytle content Contato inicio -----------------------------------------*/
+    
+    /* Sytle content Contato fim -----------------------------------------*/
+
+
+/* Style Content fim ------------------------------------------------------------------------ */
+
+
+
+/* Style Footer inicio ---------------------------------------------------------------------- */
+.footer {
+    background-color: var(--nav-color);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.footer p{
+    color: #fff;
+}
+/* Style Footer fim ---------------------------------------------------------------------- */
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Questão</title>
+</head>
+<body>
+    <script type="text/javascript" src="script.js"></script>
+    <section class="header">
+        <h1>LOGO</h1>
+    </section>
+    
+    <section class="content_questao">
+        <section class="fundo_questao">
+            <h1>Questao 01</h1>
+            <h2>Qual comando é usado para exibir uma mensagem na tela ao usuário em Portugol?</h2>
+            <section class="div_resposta">
+                <button class="botao_questao" >escreva</button>
+                <button class="botao_questao">leia</button>
+                <button class="botao_questao" >imprima</button>
+                <button class="botao_questao">mostre</button>
+            </section>
+        </section>
+    </section>
+    
+    <section class="footer">
+        <p>&copy; 2023 My Tech Blue Site. All rights reserved.</p>
+    </section>
+</body>
+</html>
