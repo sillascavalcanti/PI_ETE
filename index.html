@@ -33,10 +33,10 @@
 
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
-            <form action="" class="formulario">
-                <input type="text" placeholder="Nome Sobrenome" class="componente_formulario" required>
-                <input type="email" placeholder="Exemplo@gmail.com" class="componente_formulario" required>
-                <input type="date" class="componente_formulario" required>
+            <form action="" class="formulario" onsubmit="salvar()">
+                <input type="text" placeholder="Nome Sobrenome" id="nome_completo" class="componente_formulario" required>
+                <input type="email" placeholder="Exemplo@gmail.com" id="email" class="componente_formulario" required>
+                <input type="date" class="componente_formulario" id="data_nascimento" required>
                 <input type="submit" value="Inscreva-se" class="botao_formulario">
 
             </form>

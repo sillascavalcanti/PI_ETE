@@ -10,9 +10,8 @@
     <title>Contato</title>
 </head>
 <body>
-    <script type="text/javascript" src="/script/script.js"></script>
-
-
+    
+    
     <nav class="nav">
         <section class="area_logo">
             <h1>LOGO</h1>
@@ -25,28 +24,29 @@
         </section>
     </nav>
     
-
-
+    
+    
     <content class="content">
         <section class="left_content">
             <h1 >Contato</h1>
-
+            
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
+            
             <h3 class="sugestao_titulo">Sugestão</h3>
-            <form action="" class="formulario">
-                <textarea name="sugestao" id="" cols="30" rows="10" class="texto_formulario" required></textarea>
-                <input type="email" placeholder="Exemplo@gmail.com" class="componente_formulario" required>
+            <form action="" class="formulario" onsubmit="salvar_sugestao()">
+                <textarea name="sugestao" id="sugestao" cols="30" rows="10" class="texto_formulario" required></textarea>
+                <input type="email" placeholder="Exemplo@gmail.com" id="email_usuario" class="componente_formulario" required>
                 <input type="submit" value="Enviar" class="botao_formulario">
             </form>
-
+            
         </section>
     </content>
     
-
-
+    
+    
     <footer class="footer">
         <p>&copy; 2023 Equipe Dev.Learning - Todos os direitos reservados.</p>
     </footer>
+    <script type="text/javascript" src="/script/script.js"></script>
 </body>
 </html>
