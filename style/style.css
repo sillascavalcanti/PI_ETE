@@ -16,7 +16,8 @@ body, h1, h2, p {
     margin: 0;
     padding: 0;
 }
-/* Style Nav inicio ------------------------------------------------------------------------------- */
+
+
 .nav {
     background-color: var(--nav-color);
     color: white;
@@ -27,6 +28,7 @@ body, h1, h2, p {
 .area_logo img{
     height: 65px;
     width: 185px;
+    margin-top: -5px;
 }
 
 .menu_nav{
@@ -44,100 +46,85 @@ body, h1, h2, p {
     transition: 0.5s;
 }
 
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    justify-content: center;
+    width: 48%;
+}
+
+.left_content h1{
+    margin-bottom: 10px;
+}
+
+.left_content p{
+    text-align: justify;
+    width: 380px;
+}
+
+.right_content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    justify-content: center;
+    width: 48%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
 
 
-/* Style Nav fim ------------------------------------------------------------------------------- */
+.componente_formulario{
+    border-radius: 5px;
+    border: #6159CF 1px solid;
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+}
 
 
+.botao_formulario{
+    background-color: var(--boton-color);
+    border: 1px;
+    border-radius: 5px;
+    font-size: large;
+    margin: auto;
+    padding: 10px;
+    width: 320px;
+    margin-top: 10px;
+}
 
-/* Style Content inicio ------------------------------------------------------------------------ */
-    /* Style content index inicio -------------------------------------- */
-    .left_content{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        height: 470px;
-        justify-content: center;
-        width: 35%;
-    }
+.botao_formulario:hover{
+    background-color: var(--boton-hover-color);
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s;
+}
 
-    .left_content h1{
-        margin-bottom: 10px;
-    }
+.texto_formulario{
+    border-radius: 5px;
+    border: #6159CF 1px solid;
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+}
 
-    .left_content p{
-        text-align: justify;
-        width: 380px;
-    }
+.sugestao_titulo{
+    margin-bottom: -20px;
+}
 
-
-        /* Style Formulario index inicio ------------*/
-
-        .formulario{
-            display: flex;
-            flex-direction: column;
-            margin-top: 30px;
-        }
-
-
-
-        .componente_formulario{
-            border-radius: 5px;
-            border: #6159CF 1px solid;
-            margin: 5px;
-            padding: 10px;
-            width: 300px;
-        }
-
-        /* .componente_formulario:hover{
-            border: #6159CF 2px solid;
-            transition: 0.2s;
-        } */
-
-        .botao_formulario{
-            background-color: var(--boton-color);
-            border: 1px;
-            border-radius: 5px;
-            font-size: large;
-            margin: auto;
-            padding: 10px;
-            width: 320px;
-            margin-top: 10px;
-        }
-
-        .botao_formulario:hover{
-            background-color: var(--boton-hover-color);
-            color: #fff;
-            font-weight: bold;
-            transition: 0.5s;
-        }
-
-        .texto_formulario{
-            border-radius: 5px;
-            border: #6159CF 1px solid;
-            margin: 5px;
-            padding: 10px;
-            width: 300px;
-            height: 100px;
-        }
-
-        .sugestao_titulo{
-            margin-bottom: -20px;
-        }
-        /* Style Formulario index fim ------------*/
-    /* Style content index fim -----------------------------------------*/
-
-
-    /* Sytle content Contato inicio -----------------------------------------*/
-    
-    /* Sytle content Contato fim -----------------------------------------*/
-
-
-/* Style Content fim ------------------------------------------------------------------------ */
-
-
-
-/* Style Footer inicio ---------------------------------------------------------------------- */
 .footer {
     background-color: var(--nav-color);
     color: white;
@@ -147,6 +134,6 @@ body, h1, h2, p {
 .footer p{
     color: #fff;
 }
-/* Style Footer fim ---------------------------------------------------------------------- */
+
 
 
