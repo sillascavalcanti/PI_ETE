@@ -65,8 +65,12 @@ body, h1, h2, p {
 }
 
 .left_content p{
-    text-align: justify;
+    text-align: left;
     width: 380px;
+}
+
+.left_content span{
+    font-weight: bolder;
 }
 
 .right_content{
@@ -123,6 +127,10 @@ body, h1, h2, p {
 
 .sugestao_titulo{
     margin-bottom: -20px;
+}
+
+.sugestao{
+    padding-top: 30px;
 }
 
 .footer {
