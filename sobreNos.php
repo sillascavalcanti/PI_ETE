@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
@@ -19,10 +19,9 @@
             <img src="img/Logo.png" alt="Logo">
         </section>
         <section class="area_menu">
-            <a class="menu_nav" href="index.html">Inicio</a>
-            <a class="menu_nav" href="sobreNos.html">Sobre nós</a>
-            <a class="menu_nav" href="contato.html">Contato</a>
-            <!-- <a class="menu_nav" href="sugestao.html">Sugestão</a> -->
+            <a class="menu_nav" href="index.php">Inicio</a>
+            <a class="menu_nav" href="sobreNos.php">Sobre nós</a>
+            <a class="menu_nav" href="contato.php">Contato</a>
         </section>
     </nav>
     
