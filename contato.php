@@ -32,7 +32,7 @@
             <p><span>E-mail</span>:contato@devlearning.com.br</p>
             <h3 class="sugestao_titulo">Sugestão</h3>
             <p class="sugestao">Adoraríamos ouvir suas sugestões e receber seu feedback para melhorar o Dev.Learning. Envie suas ideias:</p>
-            <form method="post" action="script/dev_learning.php" class="formulario">
+            <form method="post" action="script/request_sugestao.php" class="formulario">
                 <textarea name="sugestao" id="sugestao" cols="30" rows="10" class="texto_formulario" required></textarea>
                 <input type="email" placeholder="Exemplo@gmail.com" name="email_usuario" class="componente_formulario" required>
                 <input type="submit" value="Enviar" class="botao_formulario">
