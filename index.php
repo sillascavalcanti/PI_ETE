@@ -33,7 +33,7 @@
 
             <p>O Dev.Learning está aqui para apoiar sua jornada de aprendizado em linguagens de programação. Aproveite a oportunidade de desafiar seu conhecimento, aprender novas habilidades e se destacar no campo da tecnologia da informação. Cadastre-se agora mesmo e faça parte da comunidade Dev.Learning!</p>
 
-            <form method="post" action="script/dev_learning.php" class="formulario">
+            <form method="post" action="script/request_usuarios.php" class="formulario">
                 <input type="text" placeholder="Nome Sobrenome" name="nome_sobrenome" class="componente_formulario" required>
                 <input type="email" placeholder="Exemplo@gmail.com" name="email" class="componente_formulario" required>
                 <input type="date" class="componente_formulario" name="data_nascimento" required>
